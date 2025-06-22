@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Cleaning temp files older than 7 days..."
+echo "Starting temp files older...."
 
 if find /tmp -type f -mtime +7 -exec rm -f {} \;; then
     echo "Temp files cleaned successfully."
