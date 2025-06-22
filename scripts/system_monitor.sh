@@ -2,4 +2,4 @@
 echo "System Health Check at $(date)"
 uptime
 df -h
-free -m
+free -m >> /var/log/sys_health.log
